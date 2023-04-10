@@ -1,4 +1,3 @@
-
 > 例如 win10 idea:
 ```bash
 
@@ -22,4 +21,5 @@
 
 
 > 启动clion, 填入clion_sn.txt中的序列号
+
 > 启动idea,  填入idea_sn.txt中的序列号
