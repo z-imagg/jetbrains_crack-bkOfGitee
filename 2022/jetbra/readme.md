@@ -19,7 +19,21 @@
 -javaagent:/pubx/jetbrains_crack/2022/jetbra/ja-netfilter.jar=jetbrains
 ```
 
+> 
+
+```bash
+#文件: "/app/pycharm-professional-2022.3.3/pycharm-2022.3.3/bin/pycharm64.vmoptions"  末尾添加以下行：
+
+--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
+-javaagent:/pubx/jetbrains_crack/2022/jetbra/ja-netfilter.jar=jetbrains
+```
+
+
+
 
 > 启动clion, 填入clion_sn.txt中的序列号
 
 > 启动idea,  填入idea_sn.txt中的序列号
+>
+> 启动pycharm,  填入pycharm_sn.txt中的序列号
