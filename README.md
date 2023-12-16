@@ -24,7 +24,7 @@ file /app/jetbrains_crack/2022/jetbra/ja-netfilter.jar
 3. 引入ja-netfilter.jar
 >/app/pycharm-2022.3/bin/pycharm64.vmoptions末尾添加内容```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/pycharm-2022.3/bin/pycharm64.vmoptions```
 4. 如果之前启动过pycharm，则需要删除其数据目录```rm -fr ~/.config/JetBrains/PyCharm2022.3```
-5. 启动/app/pycharm-2022.2/bin/pycharm.sh, 并填入注册马 https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/pycharm_sn.txt
+5. 启动/app/pycharm-2022.3/bin/pycharm.sh, 并填入注册马 https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/pycharm_sn.txt
 
 ## clion 2022.3.3
 1. 下载页面 https://www.jetbrains.com/clion/download/other.html
