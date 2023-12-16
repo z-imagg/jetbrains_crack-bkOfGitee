@@ -1,0 +1,3 @@
+--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
+-javaagent:/app/jetbrains_crack/2022/jetbra/ja-netfilter.jar=jetbrains
