@@ -36,6 +36,14 @@ file /app/jetbrains_crack/2022/jetbra/ja-netfilter.jar
 5. 启动/app/pycharm-2022.3/bin/clion.sh, 并填入注册马 https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/clion-2022-3.3_sn.txt
 
 
+## rubymine 2022.3.3
+1. 下载页面 https://www.jetbrains.com/ruby/download/other.html
+```wget https://download.jetbrains.com/ruby/RubyMine-2022.3.3.tar.gz?_gl=1*1hqzv32*_ga*MTc1NDE2OTQ5Ni4xNzAyNDgwNTM4*_ga_9J976DJZ68*MTcwMzI5NTA3Ni40LjEuMTcwMzI5NjcxNi4wLjAuMA..&_ga=2.27315068.1527455134.1703295076-1754169496.1702480538```
+2. 正常解压rubymine
+3. 引入ja-netfilter.jar
+>/app/RubyMine-2022.3.3/bin/rubymine64.vmoptions末尾添加内容```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/RubyMine-2022.3.3/bin/rubymine64.vmoptions```
+4. 如果之前启动过rubymine，则需要删除其数据目录```rm -fr ~/.config/JetBrains/RubyMine2022.3/```
+5. 启动/app/RubyMine-2022.3.3/bin/rubymine.sh, 并填入注册马 https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/rubymine-2022.3.3_sn.txt
 
 # 2021
 ##  idea2021.3
