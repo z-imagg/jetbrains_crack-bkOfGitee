@@ -78,7 +78,8 @@ file /app/jetbrains_crack/2022/jetbra/ja-netfilter.jar
 > 此两个无效方法 参考 [解决Ubuntu IDEA 不能输入中文](https://cloud.tencent.com/developer/article/1929886) 、或 google 搜索 ```idea 输入法不跟随```
 3.  切换idea的启动jdk 
 > 步骤见[idea/switching-boot-jdk](https://www.jetbrains.com/help/idea/switching-boot-jdk.html)， 比如 切换到 [声称支持 linux下输入法切换的 idea jdk](https://github.com/JetBrains/JetBrainsRuntime/releases/tag/jbr-release-17.0.6b829.5), 其 具体下载地址比如[jbr_jcef-17.0.6-linux-x64-b829.5.tar.gz](https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-17.0.6-linux-x64-b829.5.tar.gz)
-> 但是切换后，依然不能切换输入法
+> 照做后，依然不能切换输入法
+> 这也是个无效方法
 
 > 怎么办？  既然不能切换，那就不切换了
 
