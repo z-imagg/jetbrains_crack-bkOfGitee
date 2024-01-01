@@ -69,4 +69,19 @@ file /app/jetbrains_crack/2022/jetbra/ja-netfilter.jar
 
 
 
+# 解决：JetBrains 系列IDE 在ubuntu22.04下 输入法切换不到中文
+> [问题 jetbrains:issue/JBR-2460](https://youtrack.jetbrains.com/issue/JBR-2460)
+
+> 以下方法无效方法： 
+1. ```export XIM...```  
+2. ``` -Drecreate.x11.input.method=true```
+> 此两个无效方法 参考 [解决Ubuntu IDEA 不能输入中文](https://cloud.tencent.com/developer/article/1929886) 、或 google 搜索 ```idea 输入法不跟随```
+3.  切换idea的启动jdk 
+> 步骤见[idea/switching-boot-jdk](https://www.jetbrains.com/help/idea/switching-boot-jdk.html)， 比如 切换到 [声称支持 linux下输入法切换的 idea jdk](https://github.com/JetBrains/JetBrainsRuntime/releases/tag/jbr-release-17.0.6b829.5), 其 具体下载地址比如[jbr_jcef-17.0.6-linux-x64-b829.5.tar.gz](https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-17.0.6-linux-x64-b829.5.tar.gz)
+> 但是切换后，依然不能切换输入法
+
+> 怎么办？  既然不能切换，那就不切换了
+
+> 解决办法：
+> 设置 -->  输入源切换  --> 所有窗口使用相同输入源
 
