@@ -20,7 +20,7 @@ Ubuntu 22.04.3 LTS \n \l
 
 > [bc4下载页面](https://www.scootersoftware.com/download), 
 
-> [bcompare-4.4.7.28397_amd64.deb下载地址](https://www.scootersoftware.com/files/bcompare-4.4.7.28397_amd64.deb)
+> [bcompare-4.4.7.28397_amd64.deb下载地址 https://www.scootersoftware.com/files/bcompare-4.4.7.28397_amd64.deb ](https://www.scootersoftware.com/files/bcompare-4.4.7.28397_amd64.deb)
 
 ###  安装
 ```shell
