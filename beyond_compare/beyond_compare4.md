@@ -37,6 +37,10 @@ sudo apt install bcompare-4.4.7.28397_amd64.deb
 
 ```
 
+> 图形化gdebi 安装 beyond_compare 4 界面举例
+![图形化gdebi 安装 beyond_compare 4 界面举例](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/raw/master/beyond_compare/gdebi-gtk-demo.png)
+
+
 ###  卸载
 > 卸载 beyond compare 4
 ```shell
