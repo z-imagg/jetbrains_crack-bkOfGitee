@@ -1,3 +1,4 @@
+
 >本文来源：[git轻量级服务器gogs、gitea，非轻量级gitbucket](https://blog.csdn.net/hfcaoguilin/article/details/131637090),  或 [  gitcode/gogs,gitea.md](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/gogs,gitea/gogs,gitea.md)
 
 > 结论:  
@@ -191,7 +192,7 @@ mv -v  repos/* $(get_value repository ROOT)/
 
 
 
-## 5. 其他用户可调用的 启动、停止脚本
+## ~~5. 其他用户可调用的 启动、停止脚本~~  
 ~~1. 关闭gitea的脚本```/home/g/shutdown_gitea.sh```~~ 
 ```shell
 #!/bin/sh
@@ -204,6 +205,7 @@ echo "shutdown gitea ok" ;}
 ```
 
 ~~2. 启动gitea的脚本```/home/g/boot_gitea.sh```~~ 
+> 启动脚本问题： z用户调用该脚本 貌似并没有正常启动 但进程是存在的，且 调用停止脚本  该进程依然存在
 ```shell
 #!/bin/sh
 
@@ -226,6 +228,35 @@ _=end
 }
 
 ```
+
+## web页面中 显示 .ipynb
+
+1. 安装nbconvert
+```shell
+sudo apt install python3-pip
+sudo pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+sudo pip3 install jupyter nbconvert
+#sudo pip3 安装的jupyter路径为/usr/local/bin/jupyter
+which jupyter   #/usr/local/bin/jupyter
+#若pip3前没有sudo，则jupyter路径为  ~/.local/bin/jupyter ,  需要改PATH ，麻烦，因此用了sudo
+```
+
+2. nvconvert例子
+> ```jupyter nbconvert --to html --template full /bal/bochs_run-linux4/analyze/py4cytoscape_demo.ipynb```
+
+3.给gitea的配置文件添加nbconvert配置 
+>  ```cat  /app/jetbrains_crack/gogs,gitea/gitea_custom_conf_app.ini_nbconvert.txt  >> custom/conf/app.ini ```
+
+> [gitea_custom_conf_app.ini_nbconvert.txt内容](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/gogs,gitea/gitea_custom_conf_app.ini_nbconvert.txt)
+
+4. 重启gitea
+
+5. 浏览器再次访问.ipynb文件 即正常渲染为.html文件
+> [py4cytoscape_demo.ipynb](http://giteaz:3000/bal/bal/src/branch/bal/dev/bochs_run-linux4/analyze/py4cytoscape_demo.ipynb) 
+
+### 参考
+0.  [How to render Jupyter Notebooks on Gitea](https://blog.gitea.com/render-jupyter-notebooks/)
+1.  [基于 Gitea 服务端渲染的 Jupyter Notebooks](https://www.cnblogs.com/Gitea/p/16593195.html)
 
 
 #  gitbucket
