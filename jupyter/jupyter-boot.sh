@@ -1,8 +1,24 @@
 #!/bin/sh
 
+sudo apt install -y expect
+
+
+
 #设置jupyter密码为z
-/app/miniconda3/bin/python -c "from notebook.auth.security import set_password;  set_password(password='z') "
-#交互式设置密码命令为 jupyter-notebook password,  此命令不适合启动脚本用
+#  用expect喂密码给 jupyter-notebook password 
+password=z
+/usr/bin/expect<<-EOF
+spawn jupyter-notebook password
+expect {
+    "Enter password: "
+    {send "$password\r";exp_continue}
+    "Verify password: "
+    {send "$password\r"}
+}
+  expect eof
+EOF
+
+
 
 #启动jupyter
 nohup /app/miniconda3/bin/jupyter-notebook  --ip=0.0.0.0 --no-browser &
