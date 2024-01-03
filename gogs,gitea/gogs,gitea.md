@@ -230,8 +230,8 @@ _=end
 
 ## web页面中 显示 .ipynb
 
-0. 安装jupyter，其中notebook6.5.5
-> [安装jupyter，其中notebook6.5.5](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/jupyter/jupyter-notebook6.5.5.md)
+0. 安装jupyter
+> [安装jupyter](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/jupyter/jupyter-notebook.md)
 
 1. 安装nbconvert
 ```shell
