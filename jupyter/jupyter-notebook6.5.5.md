@@ -1,3 +1,15 @@
+> 由于 ```jupyter-notebook```启动时的报错(如下)难以解决，因此放弃  notebook==6.5.5  notebook.auth.security. set_password 转而使用 expect 以在脚本中设置jupyter密码
+
+```
+[W 15:27:45.996 NotebookApp] Error loading server extension jupyter_lsp
+    Traceback (most recent call last):
+      File "/app/miniconda3/lib/python3.10/site-packages/notebook/notebookapp.py", line 2050, in init_server_extensions
+        func(self)
+      File "/app/miniconda3/lib/python3.10/site-packages/jupyter_lsp/serverextension.py", line 76, in load_jupyter_server_extension
+        nbapp.io_loop.call_later(0, initialize, nbapp, virtual_documents_uri)
+    AttributeError: 'NotebookApp' object has no attribute 'io_loop'
+
+```
 
 ## 卸载jupyter
 ``` pip uninstall jupyter jupyter_core jupyter-client jupyter-console jupyter-contrib-nbextensions jupyter-contrib-core jupyter-highlight-selected-word jupyter-latex-envs jupyter-nbextensions-configurator notebook nbconvert nbformat ```
