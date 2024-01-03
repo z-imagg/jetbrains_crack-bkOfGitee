@@ -4,7 +4,7 @@ ENABLED = true
 ; all the file extensions we want to convert, comma separated.
 FILE_EXTENSIONS = .ipynb
 ; Lets use out nbconvert command from earlier - making to sure to convert to HTML and to output to stdout
-RENDER_COMMAND = "jupyter nbconvert --stdout --to html --template full "
+RENDER_COMMAND = "/app/miniconda3/bin/jupyter nbconvert --stdout --to html --template full "
 ; nbconvert accepts a path to a file and not stdin
 IS_INPUT_FILE = true
 
