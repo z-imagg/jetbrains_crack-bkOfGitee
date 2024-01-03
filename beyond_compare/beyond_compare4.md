@@ -61,6 +61,9 @@ sudo sed -i "s/keexjEP3t4Mue23hrnuPtY4TdcsqNiJL-5174TsUdLmJSIXKfG2NGPwBL6vnRPddT
 
 
 ```
+
+> 怎么知道路径 /usr/lib/beyondcompare/？  [图形化gdebi 安装 beyond_compare 4 界面举例](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/raw/master/beyond_compare/gdebi-gtk-demo.png)给出了该路径
+
 2. 报错弹窗“Trial Mode Error！”
 ![“Trial Mode Error！”](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/raw/master/beyond_compare/beyond_compare_4_Trial_Mode_Error.png)
 
