@@ -94,6 +94,12 @@ cd /usr/lib/beyondcompare/
 bcompare  BCompare BCompare.origin
 ```
 
+5. 参考
+> [参考](https://blog.tsingmac.com/prolions/servertech/linux/2682/)
+
+6. 考虑
+> 很明显，这是某人逆向研究过后得出的产物（即破解过程），并非该人的逆向研究过程
+
 ###  卸载
 > 卸载 beyond compare 4
 ```shell
