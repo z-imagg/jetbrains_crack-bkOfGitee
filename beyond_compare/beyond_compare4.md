@@ -26,12 +26,16 @@ Ubuntu 22.04.3 LTS \n \l
 
 ###  安装
 ```shell
+#下载安装包
 wget https://www.scootersoftware.com/files/bcompare-4.4.7.28397_amd64.deb
-#或 wget https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/raw/master/beyond_compare/bcompare-4.4.7.28397_amd64.deb
+#当官网不提供该版本安装包时，请下载本仓库报错的该安装包
+#wget https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/raw/master/beyond_compare/bcompare-4.4.7.28397_amd64.deb
 
+#校验和显示
 cat bcompare-4.4.7.28397_amd64.deb.md5sum.txt
 # fc8ab92914d52296dcf890cc915d7109  bcompare-4.4.7.28397_amd64.deb
 
+#验证校验和
 md5sum --check bcompare-4.4.7.28397_amd64.deb.md5sum.txt
 #bcompare-4.4.7.28397_amd64.deb: 成功
 
