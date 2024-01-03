@@ -25,10 +25,15 @@ Ubuntu 22.04.3 LTS \n \l
 ###  安装
 ```shell
 wget https://www.scootersoftware.com/files/bcompare-4.4.7.28397_amd64.deb
+
+#方法1. 用apt安装
 sudo apt install bcompare-4.4.7.28397_amd64.deb
-#或 sudo gdebi 
 
+#方法2. 用gdebi安装
+#sudo gdebi ./bcompare-4.4.7.28397_amd64.deb
 
+#方法3. 用 图形化gdebi 安装
+#sudo gdebi-gtk ./bcompare-4.4.7.28397_amd64.deb
 
 ```
 
