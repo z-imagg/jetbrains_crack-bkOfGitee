@@ -38,3 +38,12 @@ notebook         : 6.5.5
 qtconsole        : 5.5.1
 traitlets        : 5.9.0
 ```
+
+## 启动jupyter 
+
+```shell
+#设置jupyter密码为z
+/app/miniconda3/bin/python -c "from notebook.auth.security import set_password;  set_password(password='z') "
+#启动jupyter
+/app/miniconda3/bin/jupyter --ip=0.0.0.0
+```
