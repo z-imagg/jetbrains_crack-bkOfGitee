@@ -1,7 +1,6 @@
 
-
 ## 卸载jupyter
-``` pip uninstall jupyter jupyter_core jupyter-client jupyter-console jupyter-contrib-nbextensions jupyter-contrib-core jupyter-highlight-selected-word jupyter-latex-envs jupyter-nbextensions-configurator notebook nbconvert nbformat ```
+``` pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console jupyter-contrib-nbextensions jupyter-contrib-core jupyter-highlight-selected-word jupyter-latex-envs jupyter-nbextensions-configurator notebook nbconvert nbformat ```
 
 ##  安装jupyter  
 ```shell
