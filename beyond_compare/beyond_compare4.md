@@ -29,6 +29,13 @@ Ubuntu 22.04.3 LTS \n \l
 wget https://www.scootersoftware.com/files/bcompare-4.4.7.28397_amd64.deb
 #或 wget https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/raw/master/beyond_compare/bcompare-4.4.7.28397_amd64.deb
 
+cat bcompare-4.4.7.28397_amd64.deb.md5sum.txt
+# fc8ab92914d52296dcf890cc915d7109  bcompare-4.4.7.28397_amd64.deb
+
+md5sum --check bcompare-4.4.7.28397_amd64.deb.md5sum.txt
+#bcompare-4.4.7.28397_amd64.deb: 成功
+
+
 #方法1. 用apt安装
 sudo apt install bcompare-4.4.7.28397_amd64.deb
 
