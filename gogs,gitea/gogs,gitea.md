@@ -230,34 +230,16 @@ _=end
 
 ## web页面中 显示 .ipynb
 
+0. 安装jupyter，其中notebook6.5.5
+> [安装jupyter，其中notebook6.5.5](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/jupyter/jupyter-notebook6.5.5.md)
+
 1. 安装nbconvert
 ```shell
 source /app/miniconda3/bin/activate
-which python #==/app/miniconda3/bin/python
 which pip #==/app/miniconda3/bin/pip
-pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-pip install notebook==6.5.5
-pip install jupyter nbconvert #这一步安装的jupyter会使用上一步安装的notebook6.5.5
-which jupyter   #==/app/miniconda3/bin/jupyter
+pip install nbconvert 
 ```
 
-> ```jupyter --version```输出如下
-```txt
-#jupyter --version
-IPython          : 8.19.0
-ipykernel        : 6.28.0
-ipywidgets       : 8.1.1
-jupyter_client   : 7.4.9
-jupyter_core     : 5.6.1
-jupyter_server   : 2.12.1
-jupyterlab       : not installed
-nbclient         : 0.9.0
-nbconvert        : 7.14.0
-nbformat         : 5.9.2
-notebook         : 6.5.5
-qtconsole        : 5.5.1
-traitlets        : 5.14.0
-```
 
 
 2. nvconvert例子
