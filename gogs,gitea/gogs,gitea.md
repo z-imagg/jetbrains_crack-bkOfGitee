@@ -1,4 +1,4 @@
->本文来源：[git轻量级服务器gogs、gitea，非轻量级gitbucket](https://blog.csdn.net/hfcaoguilin/article/details/131637090)
+>本文来源：[git轻量级服务器gogs、gitea，非轻量级gitbucket](https://blog.csdn.net/hfcaoguilin/article/details/131637090),  或 [  gitcode/gogs,gitea.md](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/gogs,gitea/gogs,gitea.md)
 
 > 结论:  
 > 1. gogs、gitea很相似  确实轻，  
