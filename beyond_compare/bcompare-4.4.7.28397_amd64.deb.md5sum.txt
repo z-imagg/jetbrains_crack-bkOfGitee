@@ -1,0 +1,1 @@
+fc8ab92914d52296dcf890cc915d7109  bcompare-4.4.7.28397_amd64.deb
