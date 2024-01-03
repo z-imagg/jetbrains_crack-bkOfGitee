@@ -48,7 +48,7 @@ cd /usr/lib/beyondcompare/
 
 ls -lh BCompare
 #-rwxrwxr-x 1 root root 31M  1月  3 11:08 /usr/lib/beyondcompare/BCompare
-file  /usr/lib/beyondcompare/BCompare
+file  BCompare
 #/usr/lib/beyondcompare/BCompare: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.4.0, stripped
 
 
