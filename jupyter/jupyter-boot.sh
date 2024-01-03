@@ -18,6 +18,7 @@ expect {
   expect eof
 EOF
 
+#expect 参考: https://blog.csdn.net/CN_TangZheng/article/details/103388445
 
 
 #启动jupyter
