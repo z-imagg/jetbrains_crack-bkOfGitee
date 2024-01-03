@@ -8,11 +8,11 @@ RENDER_COMMAND = "jupyter nbconvert --stdout --to html --template full "
 ; nbconvert accepts a path to a file and not stdin
 IS_INPUT_FILE = true
 
-; the name after sanitizer doesn't really matter
-[markup.sanitizer.jupyter0]
+; 暂时不用 markup.sanitizer.jupyter0
+; [markup.sanitizer.jupyter0]
 ; Jupyter chiefly uses divs
-ELEMENT = div
+; ELEMENT = div
 ; we will need access to html classes later
-ALLOW_ATTR = class
+; ALLOW_ATTR = class
 ; we don't mind which classes we keep, so let's keep all of them
-REGEXP =
+; REGEXP =
