@@ -94,3 +94,5 @@ file /app/jetbrains_crack/2022/jetbra/ja-netfilter.jar
 > 照做后，依然不能切换输入法
 
 
+# beyond compare 4 安装
+[beyond_compare4安装](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/beyond_compare/beyond_compare4.md)
