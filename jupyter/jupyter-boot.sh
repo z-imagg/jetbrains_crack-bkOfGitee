@@ -5,5 +5,7 @@
 #交互式设置密码命令为 jupyter-notebook password,  此命令不适合启动脚本用
 
 #启动jupyter
-nohup /app/miniconda3/bin/jupyter-notebook --ip=0.0.0.0 &
+nohup /app/miniconda3/bin/jupyter-notebook  --ip=0.0.0.0 --no-browser &
 #"jupyter-notebook" == "jupyter notebook"
+#命令帮助为 jupyter-notebook --help
+#浏览器访问地址为 http://u22:8888,  u22为本地域名
