@@ -40,10 +40,4 @@ traitlets        : 5.9.0
 ```
 
 ## 启动jupyter 
-
-```shell
-#设置jupyter密码为z
-/app/miniconda3/bin/python -c "from notebook.auth.security import set_password;  set_password(password='z') "
-#启动jupyter
-/app/miniconda3/bin/jupyter --ip=0.0.0.0
-```
+> 启动jupyter  : [jupyter-boot.sh](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/jupyter/jupyter-boot.sh)
