@@ -1,3 +1,7 @@
+
+## 卸载jupyter
+``` pip uninstall jupyter jupyter_core jupyter-client jupyter-console jupyter-contrib-nbextensions jupyter-contrib-core jupyter-highlight-selected-word jupyter-latex-envs jupyter-nbextensions-configurator notebook nbconvert nbformat ```
+
 ##  安装jupyter 其中notebook版本6.5.5
 ```shell
 source /app/miniconda3/bin/activate
