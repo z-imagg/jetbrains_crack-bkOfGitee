@@ -1,4 +1,3 @@
-
 >本文来源：[git轻量级服务器gogs、gitea，非轻量级gitbucket](https://blog.csdn.net/hfcaoguilin/article/details/131637090),  或 [  gitcode/gogs,gitea.md](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/gogs,gitea/gogs,gitea.md)
 
 > 结论:  
@@ -233,16 +232,36 @@ _=end
 
 1. 安装nbconvert
 ```shell
-sudo apt install python3-pip
-sudo pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-sudo pip3 install jupyter nbconvert
-#sudo pip3 安装的jupyter路径为/usr/local/bin/jupyter
-which jupyter   #/usr/local/bin/jupyter
-#若pip3前没有sudo，则jupyter路径为  ~/.local/bin/jupyter ,  需要改PATH ，麻烦，因此用了sudo
+source /app/miniconda3/bin/activate
+which python #==/app/miniconda3/bin/python
+which pip #==/app/miniconda3/bin/pip
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip install notebook==6.5.5
+pip install jupyter nbconvert #这一步安装的jupyter会使用上一步安装的notebook6.5.5
+which jupyter   #==/app/miniconda3/bin/jupyter
 ```
 
+> ```jupyter --version```输出如下
+```txt
+#jupyter --version
+IPython          : 8.19.0
+ipykernel        : 6.28.0
+ipywidgets       : 8.1.1
+jupyter_client   : 7.4.9
+jupyter_core     : 5.6.1
+jupyter_server   : 2.12.1
+jupyterlab       : not installed
+nbclient         : 0.9.0
+nbconvert        : 7.14.0
+nbformat         : 5.9.2
+notebook         : 6.5.5
+qtconsole        : 5.5.1
+traitlets        : 5.14.0
+```
+
+
 2. nvconvert例子
-> ```jupyter nbconvert --to html --template full /bal/bochs_run-linux4/analyze/py4cytoscape_demo.ipynb```
+> ```/app/miniconda3/bin/jupyter nbconvert --to html --template full /bal/bochs_run-linux4/analyze/py4cytoscape_demo.ipynb```
 
 3.给gitea的配置文件添加nbconvert配置 
 >  ```cat  /app/jetbrains_crack/gogs,gitea/gitea_custom_conf_app.ini_nbconvert.txt  >> custom/conf/app.ini ```
