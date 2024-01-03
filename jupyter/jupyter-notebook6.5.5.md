@@ -5,7 +5,7 @@ which python #==/app/miniconda3/bin/python
 which pip #==/app/miniconda3/bin/pip
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 pip install notebook==6.5.5   traitlets==5.9.0
-pip install jupyter nbconvert #这一步安装的jupyter会使用上一步安装的notebook6.5.5 、 traitlets==5.9.0
+pip install jupyter   #这一步安装的jupyter会使用上一步安装的notebook6.5.5 、 traitlets==5.9.0
 which jupyter   #==/app/miniconda3/bin/jupyter
 ```
 
