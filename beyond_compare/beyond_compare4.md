@@ -1,4 +1,3 @@
-
 ## 0. 本机环境 : ubuntu22.04 X64
 ```shell
 uname -a
@@ -15,3 +14,30 @@ Ubuntu 22.04.3 LTS \n \l
 
 
 
+
+## 安装 beyond compare 4 deb 版本
+### 安装包获取
+
+> [bc4下载页面](https://www.scootersoftware.com/download), 
+
+> [bcompare-4.4.7.28397_amd64.deb下载地址](https://www.scootersoftware.com/files/bcompare-4.4.7.28397_amd64.deb)
+
+###  安装
+```shell
+wget https://www.scootersoftware.com/files/bcompare-4.4.7.28397_amd64.deb
+sudo apt install bcompare-4.4.7.28397_amd64.deb
+#或 sudo gdebi 
+
+
+
+```
+
+###  卸载
+> 卸载 beyond compare 4
+```shell
+#找到刚安装的bc4
+dpkg --list | grep compare
+#ii  bcompare   4.4.7-28397   amd64   Beyond Compare 4
+
+sudo apt remove bcompare
+```
