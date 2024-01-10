@@ -23,10 +23,10 @@ https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/ide
 ## idea 2022.3.2
 1. 下载页面 https://www.jetbrains.com/idea/download/other.html
 ```wget https://download-cdn.jetbrains.com.cn/idea/ideaIU-2022.3.2.tar.gz?_gl=1*uivl15*_ga*MTc1NDE2OTQ5Ni4xNzAyNDgwNTM4*_ga_9J976DJZ68*MTcwNDg5ODQ3Ny43LjAuMTcwNDg5ODUxMi4wLjAuMA..&_ga=2.47376741.310173183.1704898477-1754169496.1702480538```
-2. 正常解压pycharm
+2. 正常解压idea
 3. 引入ja-netfilter.jar
 >/app/idea-IU-223.8617.56/bin/idea64.vmoptions末尾添加内容```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/idea-IU-223.8617.56/bin/idea64.vmoptions```
-4. 如果之前启动过pycharm，则需要删除其数据目录```rm -fr ~/.config/JetBrains/IntelliJIdea2022.3/```
+4. 如果之前启动过idea，则需要删除其数据目录```rm -fr ~/.config/JetBrains/IntelliJIdea2022.3/```
 5. 启动/app/idea-IU-223.8617.56/bin/idea.sh, 并填入注册码 https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/clion-2022-3.3_sn.txt
 
 
