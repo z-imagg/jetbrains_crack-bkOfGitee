@@ -65,7 +65,7 @@ https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/ide
 ```wget https://download-cdn.jetbrains.com.cn/webstorm/WebStorm-2022.3.3.tar.gz?_gl=1*1daee4o*_ga*MTE4NjAxNTM1OC4xNzA3Njk3ODA5*_ga_9J976DJZ68*MTcwNzY5NzgwOC4xLjEuMTcwNzY5NzgxMS4wLjAuMA..&_ga=2.240475651.1278915274.1707697812-1186015358.1707697809```
 2. 正常解压webstorm
 3. 引入ja-netfilter.jar
->/app/WebStorm-223.8836.27/bin/webstorm.vmoptions末尾添加内容[```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/RubyMine-2022.3.3/bin/rubymine64.vmoptions```](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/append.vmoptions)
+>/app/WebStorm-223.8836.27/bin/webstorm.vmoptions末尾添加内容[```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/WebStorm-223.8836.27/bin/webstorm64.vmoptions```](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/append.vmoptions)
 4. 如果之前启动过webstorm，则需要删除其数据目录```rm -fr ~/.config/JetBrains/WebStorm2022.3/```
 5. 启动/app/WebStorm-223.8836.27/bin/webstorm.sh, 并填入注册马 https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/webstorm-2022.3.3_sn.txt
 
