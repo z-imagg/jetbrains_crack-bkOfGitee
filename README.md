@@ -22,7 +22,7 @@ https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/ide
 
 ## idea 2022.3.2
 1. 下载页面 https://www.jetbrains.com/idea/download/other.html
-```wget https://download-cdn.jetbrains.com.cn/idea/ideaIU-2022.3.2.tar.gz?_gl=1*uivl15*_ga*MTc1NDE2OTQ5Ni4xNzAyNDgwNTM4*_ga_9J976DJZ68*MTcwNDg5ODQ3Ny43LjAuMTcwNDg5ODUxMi4wLjAuMA..&_ga=2.47376741.310173183.1704898477-1754169496.1702480538```
+```wget https://download-cdn.jetbrains.com.cn/idea/ideaIU-2022.3.2.tar.gz```
 2. 正常解压idea
 3. 引入ja-netfilter.jar
 >/app/idea-IU-223.8617.56/bin/idea64.vmoptions末尾添加内容[```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/idea-IU-223.8617.56/bin/idea64.vmoptions```](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/append.vmoptions)
@@ -33,7 +33,7 @@ https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/ide
 
 ## pycharm 2022.3
 1. 下载页面 https://www.jetbrains.com/pycharm/download/other.html
-```wget https://download.jetbrains.com/python/pycharm-professional-2022.3.tar.gz?_gl=1*1po7w45*_ga*MTc1NDE2OTQ5Ni4xNzAyNDgwNTM4*_ga_9J976DJZ68*MTcwMjc2NDI2Ni4zLjAuMTcwMjc2NDI2Ni4wLjAuMA..&_ga=2.46885984.611356690.1702761360-1754169496.1702480538```
+```wget https://download.jetbrains.com/python/pycharm-professional-2022.3.tar.gz```
 2. 正常解压pycharm
 3. 引入ja-netfilter.jar
 >/app/pycharm-2022.3/bin/pycharm64.vmoptions末尾添加内容[```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/pycharm-2022.3/bin/pycharm64.vmoptions```](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/append.vmoptions)
@@ -42,7 +42,7 @@ https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/ide
 
 ## clion 2022.3.3
 1. 下载页面 https://www.jetbrains.com/clion/download/other.html
-```wget  https://download.jetbrains.com/cpp/CLion-2022.3.3.tar.gz?_gl=1*1fmagh0*_ga*MTc1NDE2OTQ5Ni4xNzAyNDgwNTM4*_ga_9J976DJZ68*MTcwMjc2NDI2Ni4zLjEuMTcwMjc2NTk3OC4wLjAuMA..&_ga=2.8614770.611356690.1702761360-1754169496.1702480538```
+```wget  https://download.jetbrains.com/cpp/CLion-2022.3.3.tar.gz```
 2. 正常解压clion
 3. 引入ja-netfilter.jar
 >/app/clion-2022.3.3/bin/pycharm64.vmoptions末尾添加内容[```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/clion-2022.3.3/bin/clion64.vmoptions```](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/append.vmoptions)
@@ -52,7 +52,7 @@ https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/ide
 
 ## rubymine 2022.3.3
 1. 下载页面 https://www.jetbrains.com/ruby/download/other.html
-```wget https://download.jetbrains.com/ruby/RubyMine-2022.3.3.tar.gz?_gl=1*1hqzv32*_ga*MTc1NDE2OTQ5Ni4xNzAyNDgwNTM4*_ga_9J976DJZ68*MTcwMzI5NTA3Ni40LjEuMTcwMzI5NjcxNi4wLjAuMA..&_ga=2.27315068.1527455134.1703295076-1754169496.1702480538```
+```wget https://download.jetbrains.com/ruby/RubyMine-2022.3.3.tar.gz```
 2. 正常解压rubymine
 3. 引入ja-netfilter.jar
 >/app/RubyMine-2022.3.3/bin/rubymine64.vmoptions末尾添加内容[```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/RubyMine-2022.3.3/bin/rubymine64.vmoptions```](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/append.vmoptions)
@@ -62,7 +62,7 @@ https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/ide
 
 ## webstorm 2022.3.3
 1. 下载页面 https://www.jetbrains.com/webstorm/download/other.html
-```wget https://download-cdn.jetbrains.com.cn/webstorm/WebStorm-2022.3.3.tar.gz?_gl=1*1daee4o*_ga*MTE4NjAxNTM1OC4xNzA3Njk3ODA5*_ga_9J976DJZ68*MTcwNzY5NzgwOC4xLjEuMTcwNzY5NzgxMS4wLjAuMA..&_ga=2.240475651.1278915274.1707697812-1186015358.1707697809```
+```wget https://download-cdn.jetbrains.com.cn/webstorm/WebStorm-2022.3.3.tar.gz```
 2. 正常解压webstorm
 3. 引入ja-netfilter.jar
 >/app/WebStorm-223.8836.27/bin/webstorm.vmoptions末尾添加内容[```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/WebStorm-223.8836.27/bin/webstorm64.vmoptions```](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/append.vmoptions)
