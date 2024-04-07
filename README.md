@@ -45,7 +45,7 @@ https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/ide
 ```wget  https://download.jetbrains.com/cpp/CLion-2022.3.3.tar.gz```
 2. 正常解压clion
 3. 引入ja-netfilter.jar
->/app/clion-2022.3.3/bin/pycharm64.vmoptions末尾添加内容[```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/clion-2022.3.3/bin/clion64.vmoptions```](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/append.vmoptions)
+>/app/clion-2022.3.3/bin/clion64.vmoptions末尾添加内容[```cat /app/jetbrains_crack/2022/jetbra/append.vmoptions >> /app/clion-2022.3.3/bin/clion64.vmoptions```](https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/append.vmoptions)
 4. 如果之前启动过clion，则需要删除其数据目录```rm -fr ~/.config/JetBrains/CLion2022.3/```
 5. 启动/app/clion-2022.3.3/bin/clion.sh, 并填入注册马 https://gitcode.net/pubx/jetbrains/jetbrains_crack/-/blob/master/2022/jetbra/clion-2022-3.3_sn.txt
 
